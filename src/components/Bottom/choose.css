@@ -1,0 +1,49 @@
+.recentcard {
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    padding-bottom: 5%;
+}
+
+.insideRecentImg {
+    width: 100%
+}
+
+.recentcardData {
+    padding: 20px;
+    background-color: #f4f5fc;
+}
+
+.choosemore {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnandview{
+    display: flex;
+    justify-content: space-between;
+}
+.bnowbottom{
+   background-color: #0033ff;
+    color: white;
+    height: 29px;
+    width: 65px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+.upcomingdivv{
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+@media(max-width:650px) {
+    .choosemore {
+        display: block;
+    }
+
+    .recentcard {
+        width: 100%;
+        margin-top: 13%;
+    }
+}

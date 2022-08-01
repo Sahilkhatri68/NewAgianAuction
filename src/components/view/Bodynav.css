@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+.cnt {
+    background-image: url("https://bidpro.webdevia.com/wp-content/uploads/2021/07/slider-bg.jpg?id=10291");
+    padding-block-end: 150px;
+}
+
+.Nnav {
+    height: 550px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+    z-index: 1;
+    background-image: url("https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/618/2018/05/04131217/meet-our-team-banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+@media(max-width:700px){
+.Nnav{
+    background-image: url("https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/40087/thar-exterior-front-view.jpeg?q=75");
+    background-position: center;
+
+}
+.bannerImgg{
+display: none;
+}
+}
+.Nnav>.Nnav-header {
+    display: inline;
+    width: 40%;
+}
+
+.Nnav>.Nnav-header>.Nnav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+.mianlogoo {
+    width: 15%;
+    border-radius: 10%;
+}
+
+.Nnav>.Nnav-btn {
+    display: none;
+}
+
+.Nnav>.Nnav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 3%;
+}
+
+.Nnav>.Nnav-links>a {
+    display: inline-block;
+    padding: 20px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    font-size: 16px;
+}
+
+.Nnav>.Nnav-links>a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.Nnav>#Nnav-check {
+    display: none;
+}
+
+.maininst {
+    padding: 45px;
+    margin-top: 50px;
+}
+
+.outsideInst {
+    width: 40%;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 40px;
+
+}
+
+.auchead {
+    width: 30%;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2%;
+    margin-left: 40px;
+}
+
+.inputinst {
+    width: 70%;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    border: none;
+}
+
+.searchinst {
+
+    margin-bottom: 2px;
+
+
+    background-color: #1c1c1d;
+    color: white;
+    border-radius: 4px;
+    width: 82px;
+    font-size: 17px;
+    height: 39px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1070px) {
+    .Nnav>.Nnav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 8px;
+        top: 7px;
+    }
+
+    .Nnav>.Nnav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .Nnav>.Nnav-btn>label:hover,
+    .Nnav #Nnav-check:checked~.Nnav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    .Nnav>.Nnav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid black;
+    }
+
+    .Nnav>.Nnav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 65px;
+        left: 0px;
+    }
+
+    .Nnav>.Nnav-links>a {
+        display: block;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .Nnav>#Nnav-check:not(:checked)~.Nnav-links {
+        height: 0px;
+    }
+
+    .Nnav>#Nnav-check:checked~.Nnav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+.drdwn {
+    float: left;
+    overflow: hidden;
+}
+
+.drdwn .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 18px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.drdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.drdwn-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+ 
+
+@media(max-width:700px) {
+    .bnow {
+        background-color: black;
+        color: white;
+        height: 23px;
+        width: 58px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 11px;
+    }
+
+    .conttt {
+        margin: 2px 14px;
+    }
+}
+
+@media(max-width:700px) {
+    .itemsbottoms {
+        display: block;
+        padding-bottom: 100px;
+    }
+
+    .leftbottom {
+        width: 100%;
+        margin: auto;
+    }
+
+    .rightbottom {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .toprightitem {
+        display: flex;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exploreHeading {
+        font-size: 20px;
+    }
+
+    .midSectionn {
+        padding: 0;
+        margin-Top: 0;
+    }
+}
+
+@media(max-width:1254px) {
+    .getting {
+        height: 34px;
+        width: 63px;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #0033ff;
+    }
+    .outsideInst{
+        width: 50%;
+    }
+}
+
+@media(max-width:990px) {
+    .botomcontent {
+        display: block;
+
+    }
+}
+
+@media(max-width:540px) {
+    .mianlogoo {
+        width: 14%;
+    }
+
+    .Nnav-title {
+        margin-left: 0px;
+    }
+    .maininst{
+        padding: 0;
+    }
+    .auchead{
+        font-size: 20px;
+    }
+}
+@media(max-width:850px){
+    .auchead{
+        width: 60%;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .outsideInst{
+        width: 50%;
+    }
+}
+@media(max-width:470px){
+    
+    .outsideInst{
+        margin: auto;
+    }
+}
+@media(max-width:750px){
+    .outsideInst{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .outsideInst{
+        margin: auto;
+    }
+}
+@media(max-width:350px){
+    .outsideInst{
+        display: block;
+    }
+}

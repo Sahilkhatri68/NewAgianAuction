@@ -1,0 +1,16 @@
+.backimg{
+    display: flex;
+    padding: 4%;
+    text-align: center;
+}
+.nfimg{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+}
+.imgnotfound{
+    width: 50%;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,11 @@
+.insideMainCont{
+    padding: 40px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+ .cardsxdiv{
+    width: 250px;
+    display: inline-block;
+    margin: 0px 25px;
+
+ }

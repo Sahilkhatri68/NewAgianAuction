@@ -1,0 +1,365 @@
+.outermainn {
+    padding: 30px;
+}
+
+.outersecodnmain {
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #e2e9f1;
+    border-radius: 5px;
+}
+
+.impcont {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.colordivmem {
+    height: 3px;
+    background-color: green;
+}
+
+.colordivfalseagain {
+    background-color: blue;
+    height: 3px;
+}
+
+.insideconpnt {
+    margin-right: 20px;
+    text-align: left;
+    color: blue;
+
+}
+
+.insideparaconttow {
+    margin-bottom: 0px;
+    color: green;
+}
+
+.memcomptwo {
+    color: blue;
+
+    margin-bottom: 0px;
+}
+
+.insideseccomp {
+    color: black;
+    font-weight: 500;
+}
+
+.botmmaincont {
+    margin-top: 30px;
+    border: 1px #adbcca;
+    border-radius: 5px;
+}
+
+.botmcontdataagain {
+    border: 1px solid #e2e9f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headbtmdata {
+    color: black;
+    font-weight: 500;
+}
+
+.inputdatadiv {
+    margin-top: 30px;
+}
+
+.inputmui {
+    width: 100%;
+}
+
+.outpara {
+    color: black;
+    font-weight: 400;
+}
+
+.inpdatacontain {
+    margin-top: 20px;
+}
+
+.btncheckdiv {
+    margin-top: 20px;
+    display: flex;
+}
+
+.chkbtnn {
+    width: 15%;
+    text-align: center;
+    margin: auto;
+}
+
+.parachek {
+    color: black;
+    font-size: 15px;
+}
+
+.Submtbtn {
+    margin-top: 25px;
+}
+
+.btnsgup {
+    color: white;
+    background-color: #1254ff;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.memusercheck {
+    display: flex;
+}
+
+.reacticonusericon {
+    height: 30px;
+    width: 30px;
+    color: blue;
+}
+
+.paratag {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.rightparachekc {
+    width: 90%;
+    margin: auto;
+}
+
+.leftconthead {
+    width: 7%;
+}
+
+.minhead {
+    margin-top: 20px;
+    text-align: center;
+    color: #1254ff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.carditemmem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardonemem {
+    width: 40%;
+    margin: auto;
+    border: 1px solid blue;
+    border-radius: 14px;
+    padding: 11px;
+    background-color: #f5fbff;
+}
+
+.cardtowmem {
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.headdivmem {
+
+    font-size: 24px;
+    color: #05335c;
+    font-weight: 600;
+}
+
+.cardparamem {
+    margin-top: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.facitem {
+    margin-top: 15px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.facidescitem {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.GiCheckMark {
+    height: 15px;
+    width: 15px;
+    color: blue;
+    margin-top: 7px;
+    width: 10;
+
+}
+
+.cardonememdiff {
+    width: 40%;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 14px;
+    padding: 11px;
+    background-color: #f5fbff;
+}
+
+.bidpara {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    width: 65%;
+}
+
+.medlowcont {
+    margin-top: 30px;
+}
+
+.paymethdiv {
+    font-size: 25px;
+    color: #1254ff;
+    font-weight: 600;
+    text-align: left;
+}
+
+.moneytr {
+    width: 10%;
+    /* height: 9%; */
+    /* border: 1px solid #dddddd; */
+    border-radius: 5px;
+}
+
+.payementmethlogo {
+    width: 100%;
+
+}
+
+.pmethod {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardinp {
+    width: 100%;
+}
+
+.carddetailsdiv {
+    margin-top: 20px;
+}
+
+.cddetdiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftinfocard {
+    margin-right: 10px;
+}
+
+.plogoincon {
+    margin-left: 10px;
+}
+
+.lowermoneyitem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billindiv {
+    margin-top: 20px;
+}
+
+.billinghead {
+    color: #1254ff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.adddivinfo {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.maintextdiv {
+    width: 100%;
+}
+
+.ordersummarydiv {
+    margin-top: 20px;
+    background-color: #e5f3ff;
+}
+
+.reviediv {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #1254ff;
+    font-weight: 600;
+}
+
+.sumord {
+    padding: 10px;
+}
+
+.btnpaydiv {
+    margin-top: 20px;
+}
+
+.btnorderdiv {
+    background-color: #1254ff;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.totalpricediv {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.tpricediv {
+    display: flex;
+    justify-content: space-between;
+}
+.memship{
+    color: black;
+    font-weight: 400;
+}
+.priceamount {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+@media(max-width:750px) {
+    .outersecodnmain {
+        width: 100%;
+    }
+}
+@media(max-width:1130px){
+    .outersecodnmain {
+        width: 70%;
+    }
+}
+@media(max-width:600px){
+    .carditemmem{
+        display: block;
+    }
+}

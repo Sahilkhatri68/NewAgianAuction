@@ -1,0 +1,101 @@
+ .outermainn{
+    padding: 30px;
+ }
+ .outersecodnmain{
+    width: 50%;
+    margin: auto;
+    padding:25px;
+    border: 1px solid #e2e9f1;
+    border-radius: 5px;
+ }
+ .impcont{
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   display: flex;
+   
+   
+ }
+ .colordiv{
+   height: 3px;
+   background-color:blue;
+ }
+ .colordivfalse{
+   height: 3px;
+   background-color:#adbcca;
+ }
+ .insideconpnt{
+   margin-right: 20px;
+   text-align: left;
+   color: blue;
+   
+ }
+ .insideparacont{
+   color: blue;
+ 
+   margin-bottom: 0px;
+ }
+ .memcomp{
+   color: blue;
+ 
+   margin-bottom: 0px;
+ }
+ .insideseccomp{
+   color: black;
+   font-weight: 500;
+ }
+ .botmmaincont{
+   margin-top: 30px;
+   border: 1px #adbcca;
+   border-radius: 5px;
+ }
+ .botmcontdata{
+
+ }
+ .headbtmdata{
+   color: black;
+   font-weight: 500;
+ }
+ .inputdatadiv{
+   margin-top: 30px;
+ }
+ .inputmui{
+   width: 100%;
+ }
+ .outpara{
+   color: black;
+   font-weight: 400;
+ }
+ .inpdatacontain{
+   margin-top: 20px;
+ }
+.btncheckdiv{
+   margin-top: 20px;
+   display: flex;
+}
+.chkbtnn{
+   width: 15%;
+   text-align: center;
+   margin: auto;
+}
+.parachek{
+color: black;
+font-size: 15px;
+}
+ 
+.Submtbtn{
+   margin-top: 25px;
+}
+.btnsgup{
+   color: white;
+   background-color: #1254ff;
+   font-size: 18px;
+   width: 100%;
+   border: none;
+   border-radius: 3px;
+}
+@media(max-width:750px){
+   .outersecodnmain{
+      width: 100%;
+   }
+}

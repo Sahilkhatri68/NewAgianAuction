@@ -1,0 +1,53 @@
+.mainabout{
+    padding: 20px;
+    padding-bottom: 25px;
+}
+.secondmain{
+    width: 95%;
+    text-align: left;
+    padding: 10px;
+}
+.abouthead{
+    color:#7d6666;
+    font-weight: 600;
+}
+.leftbottomabout{
+    width: 50%;
+    padding: 10px;
+}
+.outerbotm{
+    display: flex;
+    margin: 10px;
+}
+.iconbid{
+    height: 40px;
+    color: #7d6666;
+    width: 90px;
+}
+.rightbottomabout{
+    width: 50%;
+    margin-left: 50px;
+}
+.bottomabout{
+    display: flex;
+}
+.carauc{
+    width: 70%;
+}
+@media(max-width:1000px){
+    .bottomabout{
+        display: block;
+    }
+    .leftbottomabout{
+        width: 100%;
+        margin: auto;
+    }
+    .rightbottomabout{
+        width: 100%;
+        margin: auto;
+    }
+    .carauc{
+        width: 100%;
+        margin: auto;
+    }
+}

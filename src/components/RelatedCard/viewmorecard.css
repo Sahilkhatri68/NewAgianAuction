@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.viewContainer {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.viewImgContainer {
+  width: 330px;
+  background-color: #f2f2f2;
+  /* padding-bottom: 2%; */
+}
+.imgStyle {
+  width: 100%;
+  object-fit: contain;
+}
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 3%;
+}
+@media (max-width: 1072px) {
+  .viewImgContainer {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1052px) {
+  .viewImgContainer {
+    width: 280px;
+    margin: auto;
+  }
+}

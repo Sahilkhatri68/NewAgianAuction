@@ -1,0 +1,87 @@
+.mianfoot {
+  background-color: #0c1133;
+  color: white;
+}
+.contfoot {
+  width: 27%;
+}
+.itemcont {
+  width: 80%;
+}
+.infocont {
+  /* margin: 10px; */
+}
+.footpara {
+  color: white;
+  font-weight: 400;
+}
+.lowerfoot {
+  text-align: center;
+  border-top: 1px solid #2c3eb0;
+  font-size: 21px;
+  margin-top: 30px;
+  padding: 15px;
+}
+.itemphone {
+  margin-top: 10px;
+}
+.muiicon {
+  height: 15px;
+  text-align: center;
+  margin-right: 9px;
+}
+
+.insidefoot {
+  display: flex;
+  padding: 25px;
+}
+.foothead {
+  margin: 0px;
+  color: #b35f5f;
+}
+.paraitem {
+  margin-top: 20px;
+}
+.infocontainer {
+  margin-top: 10px;
+}
+.txtfld {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.muibtn {
+  margin-top: 20px;
+}
+.btnload {
+  background-color: #3a46d1;
+}
+.webfoot {
+}
+.textfoot {
+  width: 75%;
+  line-height: 33px;
+}
+.socialiconsf {
+  font-size: 20px;
+  text-align: center;
+  margin-right: 4px;
+}
+@media (max-width: 1028px) {
+  .contfoot {
+    width: 25%;
+  }
+}
+@media (max-width: 750px) {
+  .insidefoot {
+    display: block;
+  }
+  .contfoot {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 35px;
+  }
+}

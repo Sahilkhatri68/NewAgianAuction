@@ -1,0 +1,50 @@
+.maindescdiv {
+  padding: 30px;
+}
+.outerdesc {
+  width: 95%;
+  display: flex;
+}
+.leftdescview {
+  width: 70%;
+}
+.rightdescview {
+  width: 30%;
+  margin-left: 10px;
+  text-align: center;
+}
+.descimg {
+  width: 100%;
+}
+.maindescvi {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+.bidbbtn {
+  text-align: right;
+}
+.timerdiv {
+  background-color: #eaecf9;
+  display: flex;
+}
+.outertime {
+  padding: 10px;
+}
+.datet {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+@media (max-width: 890px) {
+  .outerdesc {
+    display: block;
+  }
+  .leftdescview {
+    width: 100%;
+  }
+  .rightdescview {
+    width: 40%;
+    margin-bottom: 80px;
+  }
+}
